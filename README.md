@@ -35,16 +35,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+    useRouteMatch is used for making relative route paths and link locations, this makes more generalized and flexable code. It is also similar to Route in that it attempts to match the current URL in the same way that Route would. 
 1. How would you explain form validation to someone who has never programmed before?
+    for validation is our way of checking to see if the information filled out on a form is indeed correct. For example we have all filled out a form over the internet and when we do there is usually a password or user name. Form Validation is the way that we check if this information given meets the requirements needed in order for the form to be filled out correctly. Developers use programs such as yup to validate forms. 
 1. In 1-2 sentences, define end to end testing.
-
+    According to my understanding end to end testing is a way for our website to be tested for bugs that the UI may experience. This helps us as developers identify problems that a user might face while using our website. Problems such as buttons not working, submit and even scrolling the page. This testing not only helps us identify problem within a moment but over time as well so that we know 5 months from now that our website is working correctly. 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Implement the project on the main branch, committing changes regularly
+- [x] Create a forked copy of this project
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Implement the project on the main branch, committing changes regularly
 - [ ] Push commits: `git push origin main`
 - [ ] PUSH EVERYTHING TO THE MAIN BRANCH
 
@@ -52,14 +54,14 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Your finished project must include all of the following requirements:
 
-- [ ] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
-- [ ] A order form that has a "/pizza" route and shows the form
-- [ ] A form with an id of "pizza-form"
-- [ ] A name text input field with an id of "name-input"
-- [ ] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
-- [ ] A dropdown for pizza size with an id of "size-dropdown"
-- [ ] A checklist for toppings - at least 4 (hint: name each separately!)
-- [ ] Text input for special instructions with an id of "special-text"
+- [x] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
+- [x] A order form that has a "/pizza" route and shows the form
+- [x] A form with an id of "pizza-form"
+- [x] A name text input field with an id of "name-input"
+- [x] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
+- [x] A dropdown for pizza size with an id of "size-dropdown"
+- [x] A checklist for toppings - at least 4 (hint: name each separately!)
+- [x] Text input for special instructions with an id of "special-text"
 - [ ] An Add to Order button that has an id of "order-button" and that submits form and returns a database record of name, size, toppings and special instructions
 
 Data should look something like
